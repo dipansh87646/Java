@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Replace with your repository URL if needed
-                git 'https://github.com/yourusername/jenkins-demo.git'
+                git 'https://github.com/dipansh87646/Java.git'
             }
         }
         stage('Build') {
